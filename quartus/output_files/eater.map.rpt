@@ -1,5 +1,5 @@
-Analysis & Elaboration report for eater
-Tue Apr  4 17:34:29 2023
+Analysis & Synthesis report for eater
+Thu Apr  6 12:56:56 2023
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -7,10 +7,10 @@ Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
 
 
 
@@ -35,9 +35,9 @@ https://fpgasoftware.intel.com/eula.
 
 
 +----------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                   ;
+; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Failed - Tue Apr  4 17:34:29 2023           ;
+; Analysis & Synthesis Status        ; Failed - Thu Apr  6 12:56:56 2023           ;
 ; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                      ; eater                                       ;
 ; Top-level Entity Name              ; eater_top_level                             ;
@@ -56,24 +56,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                            ;
+; Analysis & Synthesis Settings                                                                              ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -159,47 +143,63 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Tue Apr  4 17:34:24 2023
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off eater -c eater --analysis_and_elaboration
+    Info: Processing started: Thu Apr  6 12:56:51 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off eater -c eater
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
-Info (12021): Found 1 design units, including 0 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/packages/comp_pkg.vhd
-    Info (12022): Found design unit 1: comp_pkg File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/packages/comp_pkg.vhd Line: 16
-Info (12021): Found 1 design units, including 0 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/packages/config.vhd
-    Info (12022): Found design unit 1: config File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/packages/config.vhd Line: 16
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/ram.vhd
-    Info (12022): Found design unit 1: ram-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/ram.vhd Line: 27
-    Info (12023): Found entity 1: ram File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/ram.vhd Line: 17
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/program_counter.vhd
-    Info (12022): Found design unit 1: program_counter-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/program_counter.vhd Line: 32
-    Info (12023): Found entity 1: program_counter File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/program_counter.vhd Line: 21
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/alu_register.vhd
-    Info (12022): Found design unit 1: alu_register-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/alu_register.vhd Line: 30
-    Info (12023): Found entity 1: alu_register File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/alu_register.vhd Line: 19
-Error (10500): VHDL syntax error at alu.vhd(79) near text "NOR";  expecting "(", or an identifier ("nor" is a reserved keyword), or  unary operator File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/alu.vhd Line: 79
-Info (12021): Found 0 design units, including 0 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/modules/alu.vhd
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_tri_state_buffer.vhd
-    Info (12022): Found design unit 1: generic_tri_state_buffer-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_tri_state_buffer.vhd Line: 26
-    Info (12023): Found entity 1: generic_tri_state_buffer File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_tri_state_buffer.vhd Line: 15
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_register.vhd
-    Info (12022): Found design unit 1: generic_register-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_register.vhd Line: 29
-    Info (12023): Found entity 1: generic_register File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_register.vhd Line: 16
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_ram.vhd
-    Info (12022): Found design unit 1: generic_ram-RAM File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_ram.vhd Line: 31
-    Info (12023): Found entity 1: generic_ram File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_ram.vhd Line: 18
-Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_counter.vhd
-    Info (12022): Found design unit 1: generic_counter-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_counter.vhd Line: 34
-    Info (12023): Found entity 1: generic_counter File: /home/ubuntu/Documents/docs/tech/hardware/computer/eater/vhdl/generic_modules/generic_counter.vhd Line: 19
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 738 megabytes
-    Error: Processing ended: Tue Apr  4 17:34:29 2023
+Info (12021): Found 1 design units, including 0 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd
+    Info (12022): Found design unit 1: comp_pkg File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd Line: 16
+Info (12021): Found 1 design units, including 0 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/config.vhd
+    Info (12022): Found design unit 1: config File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/config.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd
+    Info (12022): Found design unit 1: ram-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd Line: 27
+    Info (12023): Found entity 1: ram File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
+    Info (12022): Found design unit 1: program_counter-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd Line: 32
+    Info (12023): Found entity 1: program_counter File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu_register.vhd
+    Info (12022): Found design unit 1: alu_register-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu_register.vhd Line: 30
+    Info (12023): Found entity 1: alu_register File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu_register.vhd Line: 19
+Error (10500): VHDL syntax error at alu.vhd(79) near text "NOR";  expecting "(", or an identifier ("nor" is a reserved keyword), or  unary operator File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu.vhd Line: 79
+Info (12021): Found 0 design units, including 0 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd
+    Info (12022): Found design unit 1: generic_tri_state_buffer-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd Line: 26
+    Info (12023): Found entity 1: generic_tri_state_buffer File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd
+    Info (12022): Found design unit 1: generic_register-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd Line: 29
+    Info (12023): Found entity 1: generic_register File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd
+    Info (12022): Found design unit 1: generic_ram-RAM File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd Line: 31
+    Info (12023): Found entity 1: generic_ram File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd
+    Info (12022): Found design unit 1: generic_counter-RTL File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd Line: 34
+    Info (12023): Found entity 1: generic_counter File: /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd Line: 19
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 1 warning
+    Error: Peak virtual memory: 421 megabytes
+    Error: Processing ended: Thu Apr  6 12:56:56 2023
     Error: Elapsed time: 00:00:05
-    Error: Total CPU time (on all processors): 00:00:19
+    Error: Total CPU time (on all processors): 00:00:18
 
 
