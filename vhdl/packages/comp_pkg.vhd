@@ -1,11 +1,11 @@
 ----------------------------------------------------------------------
 -- Project      :   Eater Computer
 -- Module       :   ram package
--- Description  :   package with constants and types
+-- Description  :   package with constants, types and functions
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   12.03.2023
--- Last update  :   31.03.2023
+-- Last update  :   07.03.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -24,4 +24,15 @@ PACKAGE comp_pkg IS
 
     -- types
     TYPE ram_memory IS ARRAY (RAM_MEMORY_LOCATIONS - 1 DOWNTO 0) OF std_ulogic_vector(DATA_WORD_WIDTH - 1 DOWNTO 0);
+
+    -- functions
+    FUNCTION is_all(sig : unsigned; val : std_logic) RETURN boolean;
 END PACKAGE comp_pkg;
+
+PACKAGE BODY comp_pkg IS
+    FUNCTION is_all(sig : unsigned; val : std_logic) RETURN boolean IS
+        CONSTANT all_bits : unsigned(sig'RANGE) := (OTHERS => val);
+    BEGIN
+        RETURN sig = all_bits;
+    END FUNCTION;
+END PACKAGE BODY comp_pkg;

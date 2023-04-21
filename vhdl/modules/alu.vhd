@@ -8,7 +8,7 @@
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   26.03.2023
--- Last update  :   04.03.2023
+-- Last update  :   07.03.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -76,7 +76,7 @@ BEGIN
     -- calc
     sum           <= a - b WHEN sub = '1' ELSE a + b;
     carry_flag_in <= sum(DATA_WORD_WIDTH);
-    zero_flag_in  <= NOR std_ulogic_vector(sum);
+    zero_flag_in  <= '1' WHEN is_all(sum(7 DOWNTO 0), '0') ELSE '0';
 
     flag_reg : COMPONENT generic_register
         GENERIC MAP(

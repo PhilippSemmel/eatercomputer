@@ -1,0 +1,61 @@
+# Loading project eater
+# Compile of generic_tri_state_buffer.vhd was successful.
+# Compile of comp_pkg.vhd was successful.
+# Compile of config.vhd was successful.
+# Compile of generic_counter_tb1.vhd was successful.
+# Compile of generic_ram_tb1.vhd was successful.
+# Compile of generic_register_tb1.vhd was successful.
+# Compile of generic_tri_state_buffer_tb1.vhd was successful.
+# Compile of alu_register_tb1.vhd was successful.
+# Compile of alu_tb1.vhd was successful.
+# Compile of program_counter_tb1.vhd was successful.
+# Compile of ram_tb1.vhd was successful.
+# Compile of alu_register.vhd was successful.
+# Compile of program_counter.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of generic_counter.vhd was successful.
+# Compile of generic_ram.vhd was successful.
+# Compile of generic_register.vhd was successful.
+# Compile of alu.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+vsim work.alu_tb1
+# vsim work.alu_tb1 
+# Start time: 08:16:35 on Apr 07,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.comp_pkg(body)
+# Loading work.alu_tb1(testbench)
+# Loading work.alu(rtl)
+# Loading work.generic_register(rtl)
+# Loading work.generic_tri_state_buffer(rtl)
+# couldn't load file "/opt/altera/modelsim/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/alu_tb1/sim_done \
+sim:/alu_tb1/clk \
+sim:/alu_tb1/rst \
+sim:/alu_tb1/sub \
+sim:/alu_tb1/out_en \
+sim:/alu_tb1/flag_in \
+sim:/alu_tb1/carry \
+sim:/alu_tb1/zero \
+sim:/alu_tb1/data_in_a \
+sim:/alu_tb1/data_in_b \
+sim:/alu_tb1/data
+restart -f
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb1/dut
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /alu_tb1/dut
+# Compile of alu.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu(rtl)
+run
+# End time: 08:18:14 on Apr 07,2023, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 1
