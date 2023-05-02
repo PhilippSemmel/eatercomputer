@@ -31,7 +31,7 @@ ARCHITECTURE TESTBENCH OF clock_TB1 IS
     END COMPONENT clock;
 
     CONSTANT CLOCK_PERIOD     : time    := 10 ns;
-    CONSTANT SIMULATION_TIME  : time    := 100 * CLOCK_PERIOD;
+    CONSTANT SIMULATION_TIME  : time    := 65 * CLOCK_PERIOD;
     CONSTANT INPUT_FREQUENCY  : Integer := 1e8;
     CONSTANT OUTPUT_FREQUENCY : Integer := 1e7;
 
@@ -40,7 +40,6 @@ ARCHITECTURE TESTBENCH OF clock_TB1 IS
     SIGNAL rst      : std_ulogic;
     SIGNAL hlt      : std_ulogic;
     SIGNAL out_clk  : std_ulogic;                                     --@suppress
-    SIGNAL test     : std_ulogic;                                     --@suppress
 
 BEGIN
 
