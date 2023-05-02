@@ -38,7 +38,6 @@ ARCHITECTURE TESTBENCH OF alu_register_tb1 IS
     SIGNAL out_en       : std_ulogic;
     SIGNAL data         : std_logic_vector(DATA_WORD_WIDTH - 1 DOWNTO 0);
     SIGNAL data_out_alu : std_ulogic_vector(DATA_WORD_WIDTH - 1 DOWNTO 0); --@suppress
-        
 
 BEGIN
 

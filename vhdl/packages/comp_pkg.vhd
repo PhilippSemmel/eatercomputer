@@ -5,7 +5,7 @@
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   12.03.2023
--- Last update  :   07.03.2023
+-- Last update  :   15.04.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -14,6 +14,10 @@ USE ieee.numeric_std.ALL;
 USE ieee.math_real.ALL;
 
 PACKAGE comp_pkg IS
+    -- system data
+    CONSTANT FPGA_CLOCK_FREQUENCY_HZ  : natural := 5e7;
+    CONSTANT COMPUTER_CLOCK_FREQUENCY : natural := 1e3;
+
     -- word widht and max values
     CONSTANT BUS_WORD_WIDTH              : natural := 8;
     CONSTANT DATA_WORD_WIDTH             : natural := BUS_WORD_WIDTH;

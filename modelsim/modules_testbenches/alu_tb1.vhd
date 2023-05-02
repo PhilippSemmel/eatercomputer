@@ -42,7 +42,6 @@ ARCHITECTURE TESTBENCH OF alu_tb1 IS
     SIGNAL carry, zero          : std_ulogic;                         --@suppress
     SIGNAL data_in_a, data_in_b : std_ulogic_vector(DATA_WORD_WIDTH - 1 DOWNTO 0);
     SIGNAL data                 : std_logic_vector(DATA_WORD_WIDTH - 1 DOWNTO 0);
-    
 
 BEGIN
 
