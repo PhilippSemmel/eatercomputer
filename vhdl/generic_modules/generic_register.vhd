@@ -28,19 +28,21 @@ END ENTITY generic_register;
 
 ARCHITECTURE RTL OF generic_register IS
 
-    SIGNAL data_reg : std_ulogic_vector(WORD_WIDTH - 1 DOWNTO 0);
+    SIGNAL data_ff, data_nxt : std_ulogic_vector(WORD_WIDTH - 1 DOWNTO 0);
 
 BEGIN
 
     seq : PROCESS(ALL) IS
     BEGIN
         IF rst = '1' THEN
-            data_reg <= (OTHERS => '0');
-        ELSIF rising_edge(clk) AND load = '1' THEN
-            data_reg <= data_in;
+            data_ff <= (OTHERS => '0');
+        ELSIF rising_edge(clk) THEN
+            data_ff <= data_nxt;
         END IF;
     END PROCESS seq;
+    
+    data_nxt <= data_in WHEN load = '1' ELSE data_ff;
 
-    data_out <= data_reg;
+    data_out <= data_ff;
 
 END ARCHITECTURE RTL;
