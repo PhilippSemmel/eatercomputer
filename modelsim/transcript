@@ -1,1 +1,29 @@
 # Loading project eater
+# Compile of processor.vhd was successful.
+# Compile of generic_tri_state_buffer.vhd was successful.
+# Compile of comp_pkg.vhd was successful.
+# Compile of config.vhd was successful.
+# Compile of generic_counter_tb1.vhd was successful.
+# Compile of generic_ram_tb1.vhd was successful.
+# Compile of generic_register_tb1.vhd was successful.
+# Compile of generic_tri_state_buffer_tb1.vhd was successful.
+# Compile of alu_register_tb1.vhd was successful.
+# Compile of alu_tb1.vhd was successful.
+# Compile of program_counter_tb1.vhd was successful.
+# Compile of ram_tb1.vhd was successful.
+# Compile of alu_register.vhd was successful.
+# Compile of program_counter.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of generic_counter.vhd was successful.
+# Compile of generic_ram.vhd was successful.
+# Compile of generic_register.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of clock_tb1.vhd was successful.
+# Compile of processor.vhd was successful.
+# Compile of processor_tb1.vhd was successful.
+# Compile of generic_register_tb2.vhd was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of memory.vhd failed with 2 errors.
+# Compile of memory.vhd failed with 1 errors.
+# Compile of memory.vhd was successful.

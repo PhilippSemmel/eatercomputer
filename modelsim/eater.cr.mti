@@ -9,6 +9,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity clock
 -- Compiling architecture RTL of clock
 
+} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity generic_register
+-- Compiling architecture RTL of generic_register
+
 } {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -156,17 +165,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity alu_register
 -- Compiling architecture RTL of alu_register
 
-} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Loading package comp_pkg
--- Compiling entity program_counter
--- Compiling architecture RTL of program_counter
-
 } {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -177,6 +175,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package comp_pkg
 -- Compiling entity alu_register_tb1
 -- Compiling architecture TESTBENCH of alu_register_tb1
+
+} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package comp_pkg
+-- Compiling entity program_counter
+-- Compiling architecture RTL of program_counter
 
 } {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -189,15 +198,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity generic_ram
 -- Compiling architecture RAM of generic_ram
 
-} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd
+} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
 -- Loading package MATH_REAL
--- Compiling entity generic_counter_tb1
--- Compiling architecture TESTBENCH of generic_counter_tb1
+-- Loading package comp_pkg
+-- Compiling entity processor_tb1
+-- Compiling architecture TESTBENCH of processor_tb1
 
 } {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -210,16 +220,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity ram_tb1
 -- Compiling architecture TESTBENCH of ram_tb1
 
-} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd
+} {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
 -- Loading package MATH_REAL
--- Loading package comp_pkg
--- Compiling entity processor_tb1
--- Compiling architecture TESTBENCH of processor_tb1
+-- Compiling entity generic_counter_tb1
+-- Compiling architecture TESTBENCH of generic_counter_tb1
 
 } {} {}} /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu.vhd {1 {vcom -work work -2008 -explicit -stats=none /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/alu.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
