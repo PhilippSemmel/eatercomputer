@@ -8,7 +8,7 @@
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   26.03.2023
--- Last update  :   07.03.2023
+-- Last update  :   04.05.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -68,11 +68,6 @@ BEGIN
     a <= resize(unsigned(data_in_a), DATA_WORD_WIDTH + 1);
     b <= resize(unsigned(data_in_b), DATA_WORD_WIDTH + 1);
 
-    -- output wiring
-    carry <= flag_out(0);
-    zero  <= flag_out(1);
-    data  <= to_stdlogicvector(dout);
-
     -- calc
     sum           <= a - b WHEN sub = '1' ELSE a + b;
     carry_flag_in <= sum(DATA_WORD_WIDTH);
@@ -83,11 +78,12 @@ BEGIN
             WORD_WIDTH => 2
         )
         PORT MAP(
-            clk      => clk,
-            rst      => rst,
-            data_in  => zero_flag_in & carry_flag_in,
-            load     => flag_in,
-            data_out => flag_out
+            clk        => clk,
+            rst        => rst,
+            data_in(0) => carry_flag_in,
+            data_in(1) => zero_flag_in,
+            load       => flag_in,
+            data_out   => flag_out
         );
 
     buf : COMPONENT generic_tri_state_buffer
@@ -99,5 +95,10 @@ BEGIN
             data_in  => std_ulogic_vector(sum(DATA_WORD_WIDTH - 1 DOWNTO 0)),
             data_out => dout
         );
+
+    -- output wiring
+    carry <= flag_out(0);
+    zero  <= flag_out(1);
+    data  <= to_stdlogicvector(dout);
 
 END ARCHITECTURE RTL; 

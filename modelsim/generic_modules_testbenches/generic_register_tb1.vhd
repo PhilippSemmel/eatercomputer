@@ -1,10 +1,10 @@
 ----------------------------------------------------------------------
 -- Project      :   Eater Computer
--- Module       :   GenericRegister Testbench 1
+-- Module       :   generic_register Testbench 1
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   21.03.2023
--- Last update  :   28.03.2023
+-- Last update  :   04.05.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -30,7 +30,7 @@ ARCHITECTURE TESTBENCH OF generic_register_tb1 IS
     END COMPONENT generic_register;
 
     CONSTANT CLOCK_PERIOD    : time    := 10 ns;
-    CONSTANT SIMULATION_TIME : time    := 12 * CLOCK_PERIOD;
+    CONSTANT SIMULATION_TIME : time    := 15 * CLOCK_PERIOD;
     CONSTANT WORD_WIDTH      : natural := 8;
 
     SIGNAL sim_done          : boolean;                               -- @suppress
@@ -105,6 +105,10 @@ BEGIN
         load <= '1';
         WAIT FOR CLOCK_PERIOD;
         load <= '0';
+        WAIT FOR CLOCK_PERIOD;
+        load <= '1';
+        WAIT FOR CLOCK_PERIOD;
+        load <= '0';
         WAIT;
     END PROCESS load_gen;
 
@@ -117,6 +121,10 @@ BEGIN
         data_in <= "01010101";
         WAIT FOR 4 * CLOCK_PERIOD;
         data_in <= "00001111";
+        WAIT FOR CLOCK_PERIOD;
+        data_in <= "11001010";
+        WAIT FOR CLOCK_PERIOD;
+        data_in <= "00101101";
         WAIT;
     END PROCESS data_in_gen;
 

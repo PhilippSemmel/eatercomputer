@@ -4,7 +4,7 @@
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   28.03.2023
--- Last update  :   31.03.2023
+-- Last update  :   04.05.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -17,7 +17,7 @@ END ENTITY alu_tb1;
 
 ARCHITECTURE TESTBENCH OF alu_tb1 IS
 
-    COMPONENT alu IS
+    COMPONENT alu
         PORT(
             clk       : IN    std_ulogic;
             rst       : IN    std_ulogic;
@@ -173,7 +173,7 @@ BEGIN
         data_in_b <= "01110101";
         WAIT FOR CLOCK_PERIOD;
         data_in_b <= (OTHERS => '1');
-        WAIT FOR 3*CLOCK_PERIOD;
+        WAIT FOR 3 * CLOCK_PERIOD;
         data_in_b <= (OTHERS => '0');
         WAIT;
     END PROCESS data_in_b_gen;

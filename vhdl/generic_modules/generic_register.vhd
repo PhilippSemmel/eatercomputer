@@ -6,7 +6,7 @@
 --
 -- Authors      :   Philipp Semmel
 -- Created      :   21.03.2023
--- Last update  :   24.03.2023
+-- Last update  :   08.05.2023
 ----------------------------------------------------------------------
 
 LIBRARY ieee;
@@ -32,7 +32,7 @@ ARCHITECTURE RTL OF generic_register IS
 
 BEGIN
 
-    seq : PROCESS(ALL) IS
+    seq : PROCESS(clk, rst) IS
     BEGIN
         IF rst = '1' THEN
             data_ff <= (OTHERS => '0');
@@ -40,7 +40,7 @@ BEGIN
             data_ff <= data_nxt;
         END IF;
     END PROCESS seq;
-    
+
     data_nxt <= data_in WHEN load = '1' ELSE data_ff;
 
     data_out <= data_ff;
