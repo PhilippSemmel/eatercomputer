@@ -90,7 +90,7 @@ R5
 DEx4 work 12 alu_register 0 22 WdC2RkO5@laOfS]58L]ag2
 !i122 381
 l56
-L30 51
+Z22 L30 51
 VOBi8A7GgH55j;fWhhJKSn3
 !s100 9O0;@1LMkl_4n@gB<k9WG3
 R10
@@ -104,7 +104,7 @@ R21
 R15
 R16
 Ealu_register_tb1
-Z22 w1682108696
+Z23 w1682108696
 R1
 R2
 R3
@@ -112,19 +112,19 @@ R4
 R5
 !i122 377
 R6
-Z23 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd
-Z24 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd
+Z24 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd
+Z25 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd
 l0
-Z25 L15 1
+Z26 L15 1
 Ve654me5LdIJjlTYk]hMz13
 !s100 lZBYL01PLlO4;VO1QShb>0
 R10
 33
 R11
 !i10b 1
-Z26 !s108 1685952466.000000
-Z27 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd|
-Z28 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd|
+Z27 !s108 1685952466.000000
+Z28 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd|
+Z29 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_register_tb1.vhd|
 !i113 1
 R15
 R16
@@ -144,14 +144,14 @@ R10
 33
 R11
 !i10b 1
-R26
 R27
 R28
+R29
 !i113 1
 R15
 R16
 Ealu_tb1
-Z29 w1683192246
+Z30 w1683192246
 R1
 R2
 R3
@@ -159,10 +159,10 @@ R4
 R5
 !i122 378
 R6
-Z30 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd
-Z31 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd
+Z31 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd
+Z32 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd
 l0
-R25
+R26
 VMCco[?Q_G<UnEMoB?mXV^0
 !s100 BikhiXY7K^6`IRPYD5z6X1
 R10
@@ -170,8 +170,8 @@ R10
 R11
 !i10b 1
 R12
-Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd|
-Z33 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd|
+Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd|
+Z34 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/alu_tb1.vhd|
 !i113 1
 R15
 R16
@@ -192,13 +192,13 @@ R10
 R11
 !i10b 1
 R12
-R32
 R33
+R34
 !i113 1
 R15
 R16
 Eclock
-Z34 w1683025266
+Z35 w1683025266
 R2
 R1
 R3
@@ -206,10 +206,10 @@ R4
 R5
 !i122 388
 R6
-Z35 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd
-Z36 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd
+Z36 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd
+Z37 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd
 l0
-Z37 L21 1
+Z38 L21 1
 VEkI_R:OT[gVd?@2bzG[S@3
 !s100 WY2Uhh^WiaB?KGYQ2?zY^1
 R10
@@ -217,8 +217,8 @@ R10
 R11
 !i10b 1
 R12
-Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd|
-Z39 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd|
+Z39 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd|
+Z40 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/clock.vhd|
 !i113 1
 R15
 R16
@@ -239,13 +239,13 @@ R10
 R11
 !i10b 1
 R12
-R38
 R39
+R40
 !i113 1
 R15
 R16
 Eclock_tb1
-Z40 w1683034317
+Z41 w1683034317
 R1
 R2
 R3
@@ -253,10 +253,10 @@ R4
 R5
 !i122 389
 R6
-Z41 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd
-Z42 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd
+Z42 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd
+Z43 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd
 l0
-R25
+R26
 V56=[S=V]L0?2=2H3;d5DV0
 !s100 eozDX1z[1J>SG>7dbNnMi0
 R10
@@ -264,8 +264,8 @@ R10
 R11
 !i10b 1
 R12
-Z43 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd|
-Z44 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd|
+Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd|
+Z45 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/clock_tb1.vhd|
 !i113 1
 R15
 R16
@@ -286,8 +286,8 @@ R10
 R11
 !i10b 1
 R12
-R43
 R44
+R45
 !i113 1
 R15
 R16
@@ -297,22 +297,22 @@ R3
 R4
 R5
 !i122 371
-Z45 w1682609008
+Z46 w1682609008
 R6
-Z46 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd
-Z47 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd
+Z47 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd
+Z48 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd
 l0
-Z48 L16 1
+Z49 L16 1
 VJSO8:LMT]6WJ`[fbLj9Ke1
 !s100 1nXNP6?Ah3F2a?7U[ULc[0
 R10
 33
 b1
-Z49 !s110 1685952466
+Z50 !s110 1685952466
 !i10b 1
-R26
-Z50 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd|
-Z51 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd|
+R27
+Z51 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd|
+Z52 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/comp_pkg.vhd|
 !i113 1
 R15
 R16
@@ -329,11 +329,11 @@ VGV:@0M;gB2ej6^FG6Ab6]0
 !s100 b[M7nKm]=RU]B36K2@6MZ3
 R10
 33
-R49
-!i10b 1
-R26
 R50
+!i10b 1
+R27
 R51
+R52
 !i113 1
 R15
 R16
@@ -349,29 +349,29 @@ R6
 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/config.vhd
 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/config.vhd
 l0
-R48
+R49
 VmaJQ`ezV3oUgg`7DVUW<Z3
 !s100 6NGGOkZlDdHE1OEQ;TGWj0
 R10
 33
-R49
+R50
 !i10b 1
-R26
+R27
 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/config.vhd|
 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/packages/config.vhd|
 !i113 1
 R15
 R16
 Egeneric_counter
-Z52 w1679834213
+Z53 w1679834213
 R1
 R3
 R4
 R5
 !i122 384
 R6
-Z53 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd
-Z54 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd
+Z54 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd
+Z55 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd
 l0
 R9
 VgahBX8:7D2jW7:<Ykj6MM1
@@ -381,8 +381,8 @@ R10
 R11
 !i10b 1
 R12
-Z55 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd|
-Z56 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd|
+Z56 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd|
+Z57 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_counter.vhd|
 !i113 1
 R15
 R16
@@ -402,32 +402,32 @@ R10
 R11
 !i10b 1
 R12
-R55
 R56
+R57
 !i113 1
 R15
 R16
 Egeneric_counter_tb1
-Z57 w1680038304
+Z58 w1680038304
 R1
 R3
 R4
 R5
 !i122 373
 R6
-Z58 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd
-Z59 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd
+Z59 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd
+Z60 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd
 l0
-R25
+R26
 VUzDQ2OgFhG4VI]>b=kU][1
 !s100 ;zWZcTKe<O3Ao??Ii=Ekg0
 R10
 33
-R49
+R50
 !i10b 1
-R26
-Z60 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd|
-Z61 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd|
+R27
+Z61 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd|
+Z62 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_counter_tb1.vhd|
 !i113 1
 R15
 R16
@@ -444,16 +444,16 @@ V@TacWz3`FLFbFz_SIhJ=33
 !s100 D>7oA>TcWaXzY>klZMI<>2
 R10
 33
-R49
+R50
 !i10b 1
-R26
-R60
+R27
 R61
+R62
 !i113 1
 R15
 R16
 Egeneric_ram
-Z62 w1680442685
+Z63 w1680442685
 R1
 R2
 R3
@@ -461,8 +461,8 @@ R4
 R5
 !i122 385
 R6
-Z63 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd
-Z64 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd
+Z64 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd
+Z65 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd
 l0
 L18 1
 V6SNO><E1O?5QeGO]_c9>40
@@ -472,8 +472,8 @@ R10
 R11
 !i10b 1
 R12
-Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd|
-Z66 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd|
+Z66 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd|
+Z67 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_ram.vhd|
 !i113 1
 R15
 R16
@@ -494,13 +494,13 @@ R10
 R11
 !i10b 1
 R12
-R65
 R66
+R67
 !i113 1
 R15
 R16
 Egeneric_ram_tb1
-Z67 w1680442898
+Z68 w1680442898
 R1
 R2
 R3
@@ -508,19 +508,19 @@ R4
 R5
 !i122 374
 R6
-Z68 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd
-Z69 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd
+Z69 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd
+Z70 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd
 l0
-R25
+R26
 V3Ho<lQ;6MDe?fR:IHbQcS1
 !s100 @nAUD[0CE@FG@o0K3e;BW2
 R10
 33
-R49
+R50
 !i10b 1
-R26
-Z70 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd|
-Z71 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd|
+R27
+Z71 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd|
+Z72 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_ram_tb1.vhd|
 !i113 1
 R15
 R16
@@ -538,25 +538,25 @@ Vj]D<GX=OS9BH_YOgm7`3K3
 !s100 A:lj;R=RA3Gm[0o`aLliB3
 R10
 33
-R49
+R50
 !i10b 1
-R26
-R70
+R27
 R71
+R72
 !i113 1
 R15
 R16
 Egeneric_register
-Z72 w1685950541
+Z73 w1685950541
 R3
 R4
 R5
 !i122 386
 R6
-Z73 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd
-Z74 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd
+Z74 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd
+Z75 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd
 l0
-R48
+R49
 VbemY7[ffL=i__^5>^7L9Z0
 !s100 k=Hg4Bj5@8AU1VU^RRIE;0
 R10
@@ -564,8 +564,8 @@ R10
 R11
 !i10b 1
 R12
-Z75 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd|
-Z76 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd|
+Z76 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd|
+Z77 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_register.vhd|
 !i113 1
 R15
 R16
@@ -584,31 +584,31 @@ R10
 R11
 !i10b 1
 R12
-R75
 R76
+R77
 !i113 1
 R15
 R16
 Egeneric_register_tb1
-Z77 w1683194232
+Z78 w1683194232
 R3
 R4
 R5
 !i122 375
 R6
-Z78 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd
-Z79 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd
+Z79 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd
+Z80 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd
 l0
-Z80 L14 1
+Z81 L14 1
 V2OJjfJI9Rcmj_a6OX;`LZ1
 !s100 T:e=Q4QMk:jdfQn9WmKZM1
 R10
 33
-R49
+R50
 !i10b 1
-R26
-Z81 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd|
-Z82 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd|
+R27
+Z82 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd|
+Z83 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb1.vhd|
 !i113 1
 R15
 R16
@@ -624,16 +624,16 @@ Vh4SRh0eoH?FLCb8GiU:Jd3
 !s100 [?cGA@mZ1Yn41DlQOa6no1
 R10
 33
-R49
+R50
 !i10b 1
-R26
-R81
+R27
 R82
+R83
 !i113 1
 R15
 R16
 Egeneric_register_tb2
-Z83 w1683193601
+Z84 w1683193601
 R1
 R2
 R3
@@ -641,10 +641,10 @@ R4
 R5
 !i122 392
 R6
-Z84 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd
-Z85 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd
+Z85 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd
+Z86 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd
 l0
-R25
+R26
 Vj2O:BRYYH@3Z9bY9N_]aF3
 !s100 cTLa]oTlQgX>Gi[`V==b]3
 R10
@@ -652,10 +652,10 @@ R10
 R11
 !i10b 1
 R12
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd|
-Z87 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd|
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd|
+Z88 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_register_tb2.vhd|
 !i113 1
-Z88 o-work work -2002 -explicit
+Z89 o-work work -2002 -explicit
 R16
 Atestbench
 R1
@@ -674,31 +674,31 @@ R10
 R11
 !i10b 1
 R12
-R86
 R87
-!i113 1
 R88
+!i113 1
+R89
 R16
 Egeneric_tri_state_buffer
-Z89 w1679838246
+Z90 w1679838246
 R3
 R4
 R5
 !i122 370
 R6
-Z90 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd
-Z91 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd
+Z91 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd
+Z92 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd
 l0
-R25
+R26
 V_E0o1eM7;bXfm@kM9LjFR2
 !s100 5nX2^IW8ID47do?@aI4@B0
 R10
 33
-R49
+R50
 !i10b 1
-R26
-Z92 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd|
-Z93 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd|
+R27
+Z93 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd|
+Z94 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/generic_modules/generic_tri_state_buffer.vhd|
 !i113 1
 R15
 R16
@@ -714,34 +714,34 @@ Vbnd:ONCzc>M=Jj@DY`MUn0
 !s100 TK4zEj@k`I:WMKz0DDDjX3
 R10
 33
-R49
+R50
 !i10b 1
-R26
-R92
+R27
 R93
+R94
 !i113 1
 R15
 R16
 Egeneric_tri_state_buffer_tb1
-Z94 w1680038285
+Z95 w1680038285
 R5
 R4
 R3
 !i122 376
 R6
-Z95 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd
-Z96 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd
+Z96 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd
+Z97 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd
 l0
-R80
+R81
 V3K@SGm2^A=^_f?XzieNYo0
 !s100 ;;5BL9?aM]BWXzJaWMnm50
 R10
 33
-R49
+R50
 !i10b 1
-R26
-Z97 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd|
-Z98 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd|
+R27
+Z98 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd|
+Z99 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/generic_modules_testbenches/generic_tri_state_buffer_tb1.vhd|
 !i113 1
 R15
 R16
@@ -757,38 +757,85 @@ V`Yg47TzMeJE6]jkSDL`dX1
 !s100 c_olo09]C27>0[XTHCElj1
 R10
 33
-R49
+R50
 !i10b 1
-R26
-R97
+R27
 R98
+R99
 !i113 1
 R15
 R16
-Ememory
-Z99 w1685952670
+Einstruction_register
+Z100 w1685955538
 R1
 R2
 R3
 R4
 R5
-!i122 395
+!i122 402
 R6
-Z100 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd
-Z101 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd
+Z101 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/instruction_register.vhd
+Z102 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/instruction_register.vhd
 l0
-R48
+R49
+V3^JdW62DKYH^IiZe=]VV80
+!s100 YlERdEFkdK_QhP5Qz7;7S3
+R10
+32
+Z103 !s110 1685955541
+!i10b 1
+Z104 !s108 1685955541.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/instruction_register.vhd|
+!s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/instruction_register.vhd|
+!i113 1
+R89
+R16
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 20 instruction_register 0 22 3^JdW62DKYH^IiZe=]VV80
+!i122 402
+l56
+L27 58
+V7[GSZgOF;<GZ0;1mI6A;I1
+!s100 ]5n47B?a4Q3CfNG45LN=32
+R10
+32
+R103
+!i10b 1
+R104
+R105
+Z106 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/instruction_register.vhd|
+!i113 1
+R89
+R16
+Ememory
+Z107 w1685955359
+R1
+R2
+R3
+R4
+R5
+!i122 399
+R6
+Z108 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd
+Z109 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd
+l0
+R49
 VdFoUICBZXHakk^6^8iQmT0
 !s100 @Md:hFid=0lEKF21P1mFn3
 R10
 32
-Z102 !s110 1685952672
+Z110 !s110 1685955428
 !i10b 1
-Z103 !s108 1685952672.000000
-Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd|
-!s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd|
+Z111 !s108 1685955428.000000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd|
+Z113 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd|
 !i113 1
-R88
+R89
 R16
 Artl
 R1
@@ -797,23 +844,23 @@ R3
 R4
 R5
 DEx4 work 6 memory 0 22 dFoUICBZXHakk^6^8iQmT0
-!i122 395
-l55
-L30 49
-VgL<ISBz]Ca]0?eh1kMh432
-!s100 LSH;3VkfhmeRVWmJQ8j>^2
+!i122 399
+l57
+R22
+VYPn8J9TC@4a7O2Y?;1Ng72
+!s100 XabmZ=MW_MMdP@A7CHE^H1
 R10
 32
-R102
+R110
 !i10b 1
-R103
-R104
-Z105 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/memory.vhd|
+R111
+R112
+R113
 !i113 1
-R88
+R89
 R16
 Eprocessor
-Z106 w1683032533
+Z114 w1683032533
 R1
 R2
 R3
@@ -821,10 +868,10 @@ R4
 R5
 !i122 390
 R6
-Z107 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd
-Z108 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd
+Z115 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd
+Z116 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd
 l0
-R48
+R49
 VemK6]HB00L8cDCBmzK1]<0
 !s100 Ch_E_MB;2L6M=D?[OC[190
 R10
@@ -832,10 +879,10 @@ R10
 R11
 !i10b 1
 R12
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd|
-Z110 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd|
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd|
+Z118 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/processor.vhd|
 !i113 1
-R88
+R89
 R16
 Artl
 R1
@@ -854,13 +901,13 @@ R10
 R11
 !i10b 1
 R12
-R109
-R110
+R117
+R118
 !i113 1
-R88
+R89
 R16
 Eprocessor_tb1
-Z111 w1683036025
+Z119 w1683036025
 R1
 R2
 R3
@@ -868,10 +915,10 @@ R4
 R5
 !i122 391
 R6
-Z112 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd
-Z113 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd
+Z120 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd
+Z121 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd
 l0
-R25
+R26
 Vz^zim1iT=UmAk;H5caIzF0
 !s100 zYOHL_K68??;Ah:b_zE201
 R10
@@ -879,10 +926,10 @@ R10
 R11
 !i10b 1
 R12
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd|
-Z115 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd|
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd|
+Z123 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/processor_tb1.vhd|
 !i113 1
-R88
+R89
 R16
 Atestbench
 R1
@@ -901,13 +948,13 @@ R10
 R11
 !i10b 1
 R12
-R114
-R115
+R122
+R123
 !i113 1
-R88
+R89
 R16
 Eprogram_counter
-Z116 w1680038212
+Z124 w1680038212
 R1
 R2
 R3
@@ -915,10 +962,10 @@ R4
 R5
 !i122 382
 R6
-Z117 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
-Z118 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
+Z125 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
+Z126 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd
 l0
-R37
+R38
 V=9YjZ`4`^3[?92NLJeN8_1
 !s100 DNmDiD]aPPcEl6nN=VNBM3
 R10
@@ -926,8 +973,8 @@ R10
 R11
 !i10b 1
 R12
-Z119 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd|
-Z120 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd|
+Z127 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd|
+Z128 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/program_counter.vhd|
 !i113 1
 R15
 R16
@@ -948,13 +995,13 @@ R10
 R11
 !i10b 1
 R12
-R119
-R120
+R127
+R128
 !i113 1
 R15
 R16
 Eprogram_counter_tb1
-Z121 w1680184001
+Z129 w1680184001
 R1
 R2
 R3
@@ -962,10 +1009,10 @@ R4
 R5
 !i122 379
 R6
-Z122 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd
-Z123 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd
+Z130 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd
+Z131 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd
 l0
-R25
+R26
 VH@bm]:ToklG7jHjWS63>D0
 !s100 8>?cX4F44SRFe84;?]Y?K3
 R10
@@ -973,8 +1020,8 @@ R10
 R11
 !i10b 1
 R12
-Z124 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd|
-Z125 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd|
+Z132 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd|
+Z133 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/program_counter_tb1.vhd|
 !i113 1
 R15
 R16
@@ -995,14 +1042,14 @@ R10
 R11
 !i10b 1
 R12
-R124
-R125
+R132
+R133
 !i113 1
 R15
 R16
 Eram
-Z126 w1680619075
-Z127 DPx4 work 6 config 0 22 maJQ`ezV3oUgg`7DVUW<Z3
+Z134 w1680619075
+Z135 DPx4 work 6 config 0 22 maJQ`ezV3oUgg`7DVUW<Z3
 R1
 R2
 R3
@@ -1010,8 +1057,8 @@ R4
 R5
 !i122 383
 R6
-Z128 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd
-Z129 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd
+Z136 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd
+Z137 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd
 l0
 L17 1
 VDHHk9RR3PW>bANVKIPaz51
@@ -1021,13 +1068,13 @@ R10
 R11
 !i10b 1
 R12
-Z130 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd|
-Z131 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd|
+Z138 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd|
+Z139 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/vhdl/modules/ram.vhd|
 !i113 1
 R15
 R16
 Artl
-R127
+R135
 R1
 R2
 R3
@@ -1044,13 +1091,13 @@ R10
 R11
 !i10b 1
 R12
-R130
-R131
+R138
+R139
 !i113 1
 R15
 R16
 Eram_tb1
-Z132 w1680618793
+Z140 w1680618793
 R1
 R2
 R3
@@ -1058,10 +1105,10 @@ R4
 R5
 !i122 380
 R6
-Z133 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd
-Z134 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd
+Z141 8/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd
+Z142 F/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd
 l0
-R25
+R26
 VA@27Je0L7@<V6?7QHlDU;3
 !s100 jW^jQ<YDd2ER;Mg2Ge9CV1
 R10
@@ -1069,8 +1116,8 @@ R10
 R11
 !i10b 1
 R12
-Z135 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd|
-Z136 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd|
+Z143 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|/home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd|
+Z144 !s107 /home/ubuntu/Documents/docs/tech/hardware/computer/eatercomputer/modelsim/modules_testbenches/ram_tb1.vhd|
 !i113 1
 R15
 R16
@@ -1091,8 +1138,8 @@ R10
 R11
 !i10b 1
 R12
-R135
-R136
+R143
+R144
 !i113 1
 R15
 R16
