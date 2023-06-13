@@ -1,7 +1,7 @@
 from typing import Dict, List
 
 PATH_INPUT_FILE: str = 'code.txt'
-PATH_OUTPUT_FILE: str = 'output.mif'
+PATH_OUTPUT_FILE: str = '../vhdl/mif_files/program_code.mif'
 HEX_CHARS: str = '0123456789ABCDEF'
 INSTRUCTION_MAP: Dict[str, int] = {'NOP': 0b0000, 'LDA': 0b0001, 'ADD': 0b0010, 'SUB': 0b0011, 'STA': 0b0100,
                                    'LIA': 0b0101, 'JMP': 0b0110, 'JC': 0b0111, 'JZ': 0b1000, 'LDB': 0b1001,

@@ -18,13 +18,14 @@ PACKAGE comp_pkg IS
     CONSTANT FPGA_CLOCK_FREQUENCY_HZ  : natural := 5e7;
     CONSTANT COMPUTER_CLOCK_FREQUENCY : natural := 1e3;
 
-    -- word widht and max values
+    -- architeture constants
     CONSTANT BUS_WORD_WIDTH              : natural := 8;
     CONSTANT DATA_WORD_WIDTH             : natural := BUS_WORD_WIDTH;
     CONSTANT RAM_ADDR_WORD_WIDTH         : natural := 4;
     CONSTANT RAM_MEMORY_LOCATIONS        : natural := 2 ** RAM_ADDR_WORD_WIDTH;
     CONSTANT PROGRAMM_COUNTER_WORD_WIDTH : natural := 4;
     CONSTANT PROGRAMM_COUNTER_MAX_VALUE  : natural := 2 ** PROGRAMM_COUNTER_WORD_WIDTH;
+    CONSTANT INSTRUCTION_STEPS : natrual := 5;
 
     -- types
     TYPE ram_memory IS ARRAY (RAM_MEMORY_LOCATIONS - 1 DOWNTO 0) OF std_ulogic_vector(DATA_WORD_WIDTH - 1 DOWNTO 0);
